@@ -25,7 +25,58 @@
 
 <br/>
 
+    // Add a new line after every curl request
+    $ vi ~/.curlrc
 
+<br/>
+add
+<br/>
+
+```
+-w "\n"
+```
+
+<br/>
+
+## 02 Creating a REST API application
+
+<br/>
+
+### 005 Prerequisite Install Insomnia
+
+https://insomnia.rest/download/
+
+<br/>
+
+### 006 Running NestJS in Development Mode
+
+    $ npm run start:dev
+
+<br/>
+
+### 007 Creating a Basic Controller
+
+<br/>
+
+    $ cd app/api
+    $ nest generate controller coffees
+
+<br/>
+
+```
+// GET ONE PRODUCT  - BFF (OK!)
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/flavors
+```
+
+<br/>
+
+**returns**
+
+```
+This action returns all coffees
+```
 
 ---
 
@@ -33,5 +84,9 @@
 
 **Marley**
 
-Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>  
+Any questions in english: <a href="https://jsdev.org/chat/">Telegram Chat</a>
 Любые вопросы на русском: <a href="https://jsdev.ru/chat/">Телеграм чат</a>
+
+```
+
+```
