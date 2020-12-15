@@ -99,6 +99,18 @@ This action return #123 coffee
 
 <br/>
 
+### 009 Handling Request Body Payload
+
+<br/>
+
+### 010 Response Status Codes
+
+<br/>
+
+### 011 Handling Update and Delete Requests
+
+<br/>
+
 ---
 
 <br/>
