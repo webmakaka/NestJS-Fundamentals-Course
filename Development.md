@@ -111,6 +111,26 @@ This action return #123 coffee
 
 <br/>
 
+### 012 Implement Pagination with Query Parameters
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET 'http://localhost:3000/coffees/flavors?limit=20&offset=10'
+```
+
+<br/>
+
+**Returns:**
+
+```
+This action returns all coffees. Limit: 20, Offset: 10
+```
+
+<br/>
+
 ---
 
 <br/>
