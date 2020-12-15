@@ -1,4 +1,4 @@
-# [NestJS Fundamentals Course] NestJS Fundamentals Course [ENG, 2020]
+# [Kamil Mysliwiec, Mark Pieszak] NestJS Fundamentals Course [ENG, 2020]
 
 <br/>
 
@@ -64,7 +64,6 @@ https://insomnia.rest/download/
 <br/>
 
 ```
-// GET ONE PRODUCT  - BFF (OK!)
 $ curl \
     -H "Content-Type: application/json" \
     -X GET http://localhost:3000/coffees/flavors
@@ -77,6 +76,28 @@ $ curl \
 ```
 This action returns all coffees
 ```
+
+<br/>
+
+### 008 Use Route Parameters
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/123
+```
+
+<br/>
+
+**returns**
+
+```
+This action return #123 coffee
+```
+
+<br/>
 
 ---
 
