@@ -131,6 +131,40 @@ This action returns all coffees. Limit: 20, Offset: 10
 
 <br/>
 
+### 013 Creating a Basic Service
+
+<br/>
+
+    $ nest generate service coffees
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/1 \
+    | python3 -m json.tool
+```
+
+<br/>
+
+**returns**
+
+```
+{
+    "id": 1,
+    "name": "Shipwreck Roast",
+    "brand": "Buddy Brew",
+    "flavors": [
+        "chocolate",
+        "vanilla"
+    ]
+}
+
+```
+
+<br/>
+
 ---
 
 <br/>
