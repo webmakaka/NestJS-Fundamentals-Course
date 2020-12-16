@@ -188,6 +188,40 @@ $ curl \
 
 <br/>
 
+### 015 Encompass BusinessDomain in Modules
+
+    $ nest generate module coffees
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/1 \
+    | python3 -m json.tool
+```
+
+<br/>
+
+**returns**
+
+```
+{
+    "id": 1,
+    "name": "Shipwreck Roast",
+    "brand": "Buddy Brew",
+    "flavors": [
+        "chocolate",
+        "vanilla"
+    ]
+}
+
+```
+
+
+
+<br/>
+
 ---
 
 <br/>
