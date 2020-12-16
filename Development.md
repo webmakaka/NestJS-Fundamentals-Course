@@ -218,7 +218,12 @@ $ curl \
 
 ```
 
+<br/>
 
+### 016 Introduction to Data Transfer Objects
+
+    $ nest generate class coffees/dto/create-coffee.dto --no-spec
+    $ nest generate class coffees/dto/update-coffee.dto --no-spec
 
 <br/>
 
