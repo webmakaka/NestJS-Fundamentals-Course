@@ -165,6 +165,29 @@ $ curl \
 
 <br/>
 
+### 014 Send UserFriendly Error Messages
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/2 \
+    | python3 -m json.tool
+```
+
+**Returns:**
+
+```
+{
+    "statusCode": 404,
+    "message": "Coffee #2 not found",
+    "error": "Not Found"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
