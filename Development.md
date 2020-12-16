@@ -6,7 +6,43 @@
 
 <br/>
 
-## [01 Getting Started](./01-Getting-Started.md)
+<br/>
+
+## 01 Getting Started
+
+<br/>
+
+    $ npm install -g @nestjs/cli
+
+<br/>
+
+    $ nest --version
+    7.5.3
+
+<br/>
+
+    $ nest new api
+    $ cd api
+    $ npm run start
+
+<br/>
+
+    // Add a new line after every curl request
+    $ vi ~/.curlrc
+
+<br/>
+add
+<br/>
+
+```
+-w "\n"
+```
+
+<br/>
+
+### [02 Creating a REST API application](./02-Creating-a-REST-API-application.md)
+
+### [03 Add PostgreSQL with TypeORM](./03-Add-PostgreSQL-with-TypeORM.md)
 
 <br/>
 
