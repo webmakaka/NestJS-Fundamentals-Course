@@ -51,6 +51,7 @@ $ curl \
     -X GET http://localhost:3000/coffees \
     | python3 -m json.tool
 ```
+
 <br/>
 
 ```
@@ -58,6 +59,45 @@ $ curl \
     -H "Content-Type: application/json" \
     -X GET http://localhost:3000/coffees/1 \
     | python3 -m json.tool
+```
+
+<br/>
+
+### 026. Create a Relation between two Entities
+
+    $ nest generate class coffees/entities/flavor.entity --no-spec
+
+<br/>
+
+### 027. Retrieve Entities with their Relations
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees \
+    | python3 -m json.tool
+```
+
+**returns:**
+
+```
+[
+    {
+        "id": 2,
+        "name": "Coffee #2",
+        "brand": "Nesti",
+        "flavors": []
+    },
+    {
+        "id": 1,
+        "name": "Coffee #1",
+        "brand": "Nesti",
+        "flavors": []
+    }
+]
+
 ```
 
 <br/>
