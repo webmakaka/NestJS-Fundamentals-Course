@@ -205,6 +205,12 @@ $ curl \
 
 <br/>
 
+### 30 Use Transactions
+
+    $ nest generate class events/enities/event.entity --no-spec
+
+<br/>
+
 ---
 
 <br/>
