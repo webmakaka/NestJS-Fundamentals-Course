@@ -181,6 +181,30 @@ $ curl \
 
 <br/>
 
+### 029. Adding Pagination
+
+    $ nest generate class common/dto/pagination-query.dto --no-spec
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees?limit=1 \
+    | python3 -m json.tool
+```
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees?offset=1 \
+    | python3 -m json.tool
+```
+
+<br/>
+
 ---
 
 <br/>
