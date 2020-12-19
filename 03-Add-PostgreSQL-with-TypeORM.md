@@ -205,13 +205,28 @@ $ curl \
 
 <br/>
 
-### 30 Use Transactions
+### 030. Use Transactions
 
     $ nest generate class events/enities/event.entity --no-spec
 
 <br/>
 
-### 31 Adding Indexes to Entities
+### 031. Adding Indexes to Entities
+
+<br/>
+
+### 032. Setting up Migrations
+
+    $ npx typeorm migration:create -n CoffeeRefactor
+
+write migrations
+
+    $ npm run build
+    $ npx typeorm migration:run
+    $ npx typeorm migration:revert
+
+    // Not Works for me
+    $ npx typeorm migration:generate -n SchemaSync
 
 <br/>
 
