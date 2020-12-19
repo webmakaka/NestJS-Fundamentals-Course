@@ -102,6 +102,85 @@ $ curl \
 
 <br/>
 
+### 028. Using Cascading Inserts and Updates
+
+```
+$ curl -d '{
+    "name": "Coffee #4",
+    "brand": "Nesti",
+    "flavors": ["caramel", "chocolate"]
+}' \
+-H "Content-Type: application/json" \
+-X POST http://localhost:3000/coffees/ \
+| python -m json.tool
+```
+
+<br/>
+
+```
+{
+    "brand": "Nesti",
+    "flavors": [
+        {
+            "id": 1,
+            "name": "caramel"
+        },
+        {
+            "id": 2,
+            "name": "chocolate"
+        }
+    ],
+    "id": 3,
+    "name": "Coffee #4"
+}
+```
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees \
+    | python3 -m json.tool
+```
+
+<br/>
+
+```
+[
+    {
+        "id": 3,
+        "name": "Coffee #4",
+        "brand": "Nesti",
+        "flavors": [
+            {
+                "id": 1,
+                "name": "caramel"
+            },
+            {
+                "id": 2,
+                "name": "chocolate"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Coffee #2",
+        "brand": "Nesti",
+        "flavors": []
+    },
+    {
+        "id": 1,
+        "name": "Coffee #1",
+        "brand": "Nesti",
+        "flavors": []
+    }
+]
+
+```
+
+<br/>
+
 ---
 
 <br/>
