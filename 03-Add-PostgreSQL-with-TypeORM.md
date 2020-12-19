@@ -211,6 +211,10 @@ $ curl \
 
 <br/>
 
+### 31 Adding Indexes to Entities
+
+<br/>
+
 ---
 
 <br/>
