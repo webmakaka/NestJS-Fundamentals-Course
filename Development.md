@@ -44,7 +44,9 @@ add
 
 ### [03 Add PostgreSQL with TypeORM](./03-Add-PostgreSQL-with-TypeORM.md)
 
-### [04 Dependency Injection](./04-Dependency-Injection.md)
+### [04 Dependency Injection (Theoretical part)](./04-Dependency-Injection.md)
+
+### [05 Application Configuration](./05-Application-Configuration.md)
 
 <br/>
 

@@ -17,6 +17,42 @@
 
 <br/>
 
+### 035. Diving Into Custom Providers
+
+<br/>
+
+### 036. Value based Providers
+
+<br/>
+
+### 037. Nonclassbased Provider Tokens
+
+<br/>
+
+### 038. Class Providers
+
+<br/>
+
+### 039. Factory Providers
+
+<br/>
+
+### 040. Leverage Async Providers
+
+<br/>
+
+### 041. Create a Dynamic Module
+
+<br/>
+
+### 042. Control Providers Scope
+
+<br/>
+
+### 043. Diving Deeper Into RequestScoped Providers
+
+<br/>
+
 ---
 
 <br/>
