@@ -18,6 +18,19 @@
 
 <br/>
 
+### 045. Custom Environment File Paths
+
+<br/>
+
+### 046. Schema Validation
+
+<br/>
+
+    $ npm install @hapi/joi
+    $ npm install --save-dev @types/hapi__joi
+
+<br/>
+
 ---
 
 <br/>
