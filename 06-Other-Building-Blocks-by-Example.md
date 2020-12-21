@@ -46,6 +46,24 @@ $ curl \
 
 <br/>
 
+### 054. Protect Routes with Guards
+
+<br/>
+
+    $ nest generate guard common/guards/api-key
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/ \
+    -H "Authorization: 7d8HMUuVXOWIM" \
+    | python3 -m json.tool
+```
+
+<br/>
+
 ---
 
 <br/>
