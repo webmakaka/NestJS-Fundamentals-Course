@@ -18,6 +18,14 @@ http://localhost:3000/api/
 
 <br/>
 
+### 062. Enabling CLI Plugin
+
+<br/>
+
+![Application](/img/pic-m07-p02.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
