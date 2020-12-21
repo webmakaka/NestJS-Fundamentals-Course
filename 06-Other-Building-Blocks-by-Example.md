@@ -130,6 +130,33 @@ $ curl \
 
 <br/>
 
+### 058. Creating Custom Pipes
+
+<br/>
+
+    $ nest generate pipe common/pipes/parse-int
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/abcd \
+    -H "Authorization: 7d8HMUuVXOWIM" \
+    | python3 -m json.tool
+```
+
+<br/>
+
+```
+{
+    "statusCode": 400,
+    "message": "Validation failed. \"NaN\" is not an integer!",
+    "error": "Bad Request",
+    "timestamp": "2020-12-21T04:49:06.138Z"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
