@@ -54,12 +54,54 @@ $ curl \
 
 <br/>
 
+Authorization key in .env
+
+<br/>
+
 ```
 $ curl \
     -H "Content-Type: application/json" \
     -X GET http://localhost:3000/coffees/ \
     -H "Authorization: 7d8HMUuVXOWIM" \
     | python3 -m json.tool
+```
+
+<br/>
+
+### 055. Using Metadata to Build Generic Guards or Interceptors
+
+<br/>
+
+### 056. Add Pointcuts with Interceptors
+
+<br/>
+
+    $ nest generate interceptor common/interceptors/wrap-response
+
+<br/>
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees/1 \
+    -H "Authorization: 7d8HMUuVXOWIM" \
+    | python3 -m json.tool
+```
+
+**returns:**
+
+```
+{
+    "data": {
+        "id": 1,
+        "name": "Coffee #1",
+        "description": null,
+        "brand": "Nesti",
+        "recommendations": 0,
+        "flavors": []
+    }
+}
+
 ```
 
 <br/>
