@@ -157,6 +157,20 @@ $ curl \
 
 <br/>
 
+### 059. Bonus Add Request Logging with Middleware
+
+<br/>
+
+    $ nest generate middleware common/middleware/logging
+
+<br/>
+
+????
+
+My IDE do not know anything about common.module.ts
+
+<br/>
+
 ---
 
 <br/>
