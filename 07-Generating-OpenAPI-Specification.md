@@ -26,6 +26,14 @@ http://localhost:3000/api/
 
 <br/>
 
+### 063. Decorating Model Properties
+
+<br/>
+
+![Application](/img/pic-m07-p03.png?raw=true)
+
+<br/>
+
 ---
 
 <br/>
