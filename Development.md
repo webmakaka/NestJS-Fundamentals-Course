@@ -48,6 +48,8 @@ add
 
 ### [05 Application Configuration](./05-Application-Configuration.md)
 
+### [06 Other Building Blocks by Example](./06-Other-Building-Blocks-by-Example.md)
+
 <br/>
 
 ---
