@@ -171,6 +171,26 @@ My IDE do not know anything about common.module.ts
 
 <br/>
 
+### 060. Bonus Create Custom Param Decorators
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees \
+    -H "Authorization: 7d8HMUuVXOWIM" \
+    | python3 -m json.tool
+```
+
+**server console:**
+
+```
+Before...
+https
+http
+```
+
+<br/>
+
 ---
 
 <br/>
