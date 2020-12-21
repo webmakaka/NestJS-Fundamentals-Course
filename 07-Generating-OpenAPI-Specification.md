@@ -38,6 +38,10 @@ http://localhost:3000/api/
 
 <br/>
 
+### 065. Using Tags to Group Resources
+
+<br/>
+
 ---
 
 <br/>
