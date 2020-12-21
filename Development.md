@@ -50,6 +50,8 @@ add
 
 ### [06 Other Building Blocks by Example](./06-Other-Building-Blocks-by-Example.md)
 
+### [07 Generating OpenAPI Specification](./07-Generating-OpenAPI-Specification.md)
+
 <br/>
 
 ---
