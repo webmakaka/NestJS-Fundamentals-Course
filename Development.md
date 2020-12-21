@@ -52,6 +52,8 @@ add
 
 ### [07 Generating OpenAPI Specification](./07-Generating-OpenAPI-Specification.md)
 
+### [08 Testing](./08-Testing.md)
+
 <br/>
 
 ---

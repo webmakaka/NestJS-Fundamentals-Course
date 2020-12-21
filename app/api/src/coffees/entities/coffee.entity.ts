@@ -1,3 +1,4 @@
+import { Flavor } from 'src/coffees/entities/flavor.entity';
 import {
   Column,
   Entity,
@@ -5,7 +6,6 @@ import {
   ManyToMany,
   PrimaryGeneratedColumn,
 } from 'typeorm';
-import { Flavor } from './flavor.entity';
 
 @Entity()
 export class Coffee {
