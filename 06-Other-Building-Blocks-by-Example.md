@@ -106,6 +106,30 @@ $ curl \
 
 <br/>
 
+### 057. Handling Timeouts with Interceptors
+
+<br/>
+
+    $ nest generate interceptor common/interceptors/timeout
+
+```
+$ curl \
+    -H "Content-Type: application/json" \
+    -X GET http://localhost:3000/coffees \
+    -H "Authorization: 7d8HMUuVXOWIM" \
+    | python3 -m json.tool
+```
+
+```
+{
+    "statusCode": 408,
+    "message": "Request Timeout",
+    "timestamp": "2020-12-21T04:32:13.135Z"
+}
+```
+
+<br/>
+
 ---
 
 <br/>
