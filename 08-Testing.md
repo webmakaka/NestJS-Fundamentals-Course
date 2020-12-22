@@ -16,12 +16,6 @@
 
 <br/>
 
-**I do not know how to solve issue:**
-
-TypeError: Right-hand side of 'instanceof' is not an object
-
-<br/>
-
 ---
 
 <br/>
