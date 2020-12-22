@@ -32,6 +32,20 @@ Test fail because of absolute imports
 
 ### 070. Creating our First e2e Test
 
+<br/>
+
+    $ npm run test:e2e -- coffees
+
+<br/>
+
+Test fail because of absolute imports
+
+<br/>
+
+### 071. Implementing e2e Test Logic
+
+<br/>
+
     $ npm run test:e2e -- coffees
 
 <br/>
