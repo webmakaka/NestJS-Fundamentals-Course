@@ -2,6 +2,8 @@
 
 <br/>
 
+**NOT WORKS!!!**
+
 ## 09 Add MongoDB with Mongoose (Bonus)
 
 <br/>
@@ -27,6 +29,26 @@
 
     // If would errors, deinstal it
     $ npm install --save-dev @types/mongoose
+
+<br/>
+
+### 076. Creating a Mongoose Model
+
+<br/>
+
+### 077. Using a Mongoose Model to Access MongoDB
+
+<br/>
+
+### 078. Adding Pagination
+
+<br/>
+
+### 079. Use Transactions
+
+<br/>
+
+### 080. Adding Indexes to Schemas
 
 <br/>
 
