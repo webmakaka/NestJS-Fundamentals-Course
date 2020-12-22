@@ -20,6 +20,19 @@
 
 <br/>
 
+### 069. Diving Into e2e Tests
+
+    $ npm run test:e2e
+
+<br/>
+
+Test fail becouse of absolute imports
+
+
+
+
+<br/>
+
 ---
 
 <br/>
