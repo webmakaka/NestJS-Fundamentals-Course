@@ -26,10 +26,17 @@
 
 <br/>
 
-Test fail becouse of absolute imports
+Test fail because of absolute imports
 
+<br/>
 
+### 070. Creating our First e2e Test
 
+    $ npm run test:e2e -- coffees
+
+<br/>
+
+Test fail because of absolute imports
 
 <br/>
 
