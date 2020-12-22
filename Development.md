@@ -54,6 +54,8 @@ add
 
 ### [08 Testing](./08-Testing.md)
 
+### [09 Add MongoDB with Mongoose (Bonus)](./09-Add-MongoDB-with-Mongoose.md)
+
 <br/>
 
 ---
